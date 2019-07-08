@@ -28,12 +28,14 @@ public class FlightFinderpage
 		if(flag==true)
 		{
 			System.out.println("FlightFinder page is displayed");
+			System.out.println("FlightFinder image is displayed");
 		}
 	}
 	
 	public void clickonSignoff()
 	{
 		objSignoff.click();
+		System.out.println("User has signed off successfully");
 	}
 	public static void main(String[] args)
 	{
