@@ -30,16 +30,19 @@ public class SignOnpage
 	public void enterUserName(String username)
 	{
 		objusername1.sendKeys(username);
+		System.out.println("Username has entered successfully");
 	}
 	
 	public void enterPassword(String password)
 	{
 		objpassword1.sendKeys(password);
+		System.out.println("Password has entered successfully");
 	}
 	
 	public void clickonLogin()
 	{
 		objlogin1.click();
+		System.out.println("User has login into Mercury Tours successfully");
 	}
 	
 	public void verifySignOn()
