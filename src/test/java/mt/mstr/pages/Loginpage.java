@@ -29,11 +29,13 @@ public class Loginpage
 	public void enterUserName(String username)
 	{
 		objusername.sendKeys(username);
+		System.out.println("Username is entered successfully");
 	}
 	
 	public void enterPassword(String password)
 	{
 		objpassword.sendKeys(password);
+		System.out.println("Password is entered successfully");
 	}
 	
 	public void clickonLogin()
